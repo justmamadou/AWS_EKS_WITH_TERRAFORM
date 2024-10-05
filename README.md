@@ -1,13 +1,13 @@
 # EKS Cluster Setup with Terraform
 
-This repository contains the configuration to set up an Amazon EKS cluster from scratch using Terraform. The project includes several features such as cluster-autoscaler, load balancer, pod identity (IRSA), EBS, and EFS addons, all deployed using Terraform resources without any external modules.
+This repository contains the configuration to set up an Amazon EKS cluster from scratch using Terraform. The project includes several features such as cluster-autoscaler, load balancer, pod identity, EBS, and EFS addons, all deployed using Terraform resources without any external modules.
 
 ## Features
 
 - **EKS Cluster**: Set up an EKS cluster using native Terraform resources.
 - **Cluster Autoscaler**: Automatically scales the worker nodes in the cluster based on load.
 - **Load Balancer**: Configured load balancer for managing external traffic.
-- **Pod Identity (IRSA)**: Implemented IAM Roles for Service Accounts (IRSA) for secure AWS API access by the pods.
+- **Pod Identity **: Implemented IAM Roles for Service Accounts (IRSA) for secure AWS API access by the pods.
 - **EBS Addon**: Attach Amazon EBS volumes to your pods for persistent storage.
 - **EFS Addon**: Use Amazon EFS for scalable and elastic file storage across pods.
 - **Helm Provider**: Managed Helm charts to install Kubernetes addons such as the autoscaler, EBS, and EFS.
