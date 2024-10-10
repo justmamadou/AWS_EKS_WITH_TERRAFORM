@@ -1,14 +1,14 @@
-### Get all resources 
+### Get All Resources 
 ![alt text](image.png)
 
-### Check the ingress class
+### Check The Ingress Class
 ![alt text](image-1.png)
 
-### deply all resource
+### Deploy All Resource
 ![alt text](image-2.png)
 
-### Get the ingress
+### Get The Ingress resource
 ![alt text](image-3.png)
 
-### Test the ingress
+### Test The Ingress
 ![alt text](image-4.png)
