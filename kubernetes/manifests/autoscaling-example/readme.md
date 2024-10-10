@@ -11,7 +11,7 @@ kubectl get  nodes
 ```bash
 kubectl apply -f autoscaling-example/
 ```
-![alt text](image-1.png)
+![alt text](image-3.png)
 
 ### Check the number of nodes now
 ```bash
